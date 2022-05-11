@@ -24,3 +24,13 @@ header {
 	height: 2vh;
 }
 
+/* .left > * {} */
+
+img {
+	opacity: 0.3;
+	height: auto;
+	width: 100vmin;
+}
+
+/* .right {} */
+
