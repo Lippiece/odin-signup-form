@@ -1,0 +1,26 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main {
+	display: flex;
+	flex-grow: 0;
+	flex-shrink: 1;
+	/* gap: 100px; */
+	width: 100%;
+	height: 98vh;
+}
+
+main > * {
+	overflow: hidden;
+	height: 100%;
+	width: 50vw;
+	/* padding: 50px; */
+}
+
+header {
+	height: 2vh;
+}
+
