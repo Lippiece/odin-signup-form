@@ -92,6 +92,15 @@ label {
 	letter-spacing: 0.125em;
 	font-weight: 300;
 }
+
+input {
+	-webkit-appearance: none;
+	appearance: none;
+	color: #222;
+	border-radius: 1em;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	border: none;
+	outline: none;
 }
 
 /* .right {} */
