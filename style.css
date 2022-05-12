@@ -9,15 +9,19 @@ body {
 body * {
 	color: #ccc;
 }
+
+header {
+	height: 2vh;
+	margin-bottom: 2px;
 }
 
 main {
 	display: flex;
 	flex-grow: 0;
 	flex-shrink: 1;
-	/* gap: 100px; */
+	gap: 1em;
 	width: 100%;
-	height: 98vh;
+	height: calc( 98vh - 2px );
 }
 
 main > * {
