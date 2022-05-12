@@ -118,3 +118,8 @@ button {
 	margin: 1em;
 }
 
+.inner-footer a {
+	color: wheat;
+	font-weight: bold;
+	opacity: 1;
+}
