@@ -103,5 +103,18 @@ input {
 	outline: none;
 }
 
-/* .right {} */
+
+button {
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	outline: 3px solid wheat;
+	cursor: pointer;
+	border-radius: 1em;
+	width: 7em;
+	height: 2em;
+	background-color: #222;
+	color: wheat;
+	margin: 1em;
+}
 
