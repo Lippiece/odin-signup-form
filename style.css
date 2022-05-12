@@ -85,6 +85,13 @@ form > * {
 	margin-top: 0.5em;
 	font-weight: 1000;
 }
+
+label {
+	color: wheat;
+	text-align: center;
+	letter-spacing: 0.125em;
+	font-weight: 300;
+}
 }
 
 /* .right {} */
