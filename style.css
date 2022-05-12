@@ -78,6 +78,13 @@ form {
 form > * {
 	width: 60%;
 }
+
+.svg {
+	color: wheat;
+	text-align: center;
+	margin-top: 0.5em;
+	font-weight: 1000;
+}
 }
 
 /* .right {} */
