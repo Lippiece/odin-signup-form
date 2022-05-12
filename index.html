@@ -45,18 +45,39 @@
 			<div class="right">
 				<h1>Want to join?</h1>
 				<p>Let's get started!</p>
+				<form
+						action=""
+						method="get"
+						style="font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 20;"
+				>
+					<label for="name">
+						<span class="material-symbols-outlined svg">
+							face
+						</span>
+					</label>
+					<label for="name">
 						Your nickname
 					</label>
-								id="input2"
-						>
-						Your nickname
-								id="input3"
-						>
-						<label for="input4">Your 4</label>
-						<input
-								type="text"
-								id="input4"
-						>
+					<input
+							type="text"
+							id="name"
+							placeholder="They call me..."
+							required
+					>
+					<label for="pass">
+						<span class="material-symbols-outlined svg">
+							password
+						</span>
+					</label>
+					<label for="pass">
+						Your password
+					</label>
+					<input
+							type="password"
+							placeholder="***"
+							id="pass"
+							required
+					>
 						<label for="input5">Your 5</label>
 						<input
 								type="text"
@@ -68,7 +89,7 @@
 								id="input6"
 						>
 						<button type="submit"></button>
-					</form>
+				</form>
 				<div class="inner-footer">
 					<p>Already have an account? <a href=".">Log in</a></p>
 				</div>
