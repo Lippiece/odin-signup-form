@@ -118,7 +118,20 @@ input {
 	padding: 0.3em 0.5em;
 	outline: none;
 	border: none;
-	outline: none;
+	width: 95%;
+	animation-name: default;
+	animation-duration: 0.2s;
+	font-size: 100%;
+}
+
+@keyframes default {
+	from {
+		font-size: 110%;
+	}
+
+	to {
+		font-size: 100%;
+	}
 }
 
 
