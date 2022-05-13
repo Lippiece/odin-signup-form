@@ -134,6 +134,21 @@ input {
 	}
 }
 
+input:focus {
+	animation-duration: 0.2s;
+	animation-name: active;
+	font-size: 110%;
+}
+
+@keyframes active {
+	from {
+		font-size: 100%;
+	}
+
+	to {
+		font-size: 110%;
+	}
+}
 
 input:invalid {
 	outline: 1px solid red;
