@@ -135,6 +135,15 @@ input {
 }
 
 
+input:invalid {
+	outline: 1px solid red;
+	color: red;
+}
+
+input:hover {
+	background-color: #bbb;
+}
+
 button {
 	-webkit-appearance: none;
 	appearance: none;
