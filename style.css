@@ -42,6 +42,11 @@ main > * {
 	opacity: 1;
 }
 
+.left {
+	position: absolute;
+	padding: 0 2em;
+}
+
 .stripe {
 	height: 8em;
 	display: flex;
