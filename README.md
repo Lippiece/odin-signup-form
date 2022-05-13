@@ -1,5 +1,5 @@
 # odin-signup-form
-[My take](https://lippiece.github.io/odin-signup-form/) on the Odin Sign-up form project.
+[My take](https://lippiece.github.io/odin-signup-form/) on the [Odin Sign-up form project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 
 ## Skills used 
 ### HTML
