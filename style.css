@@ -111,7 +111,6 @@ label {
 }
 
 input {
-	-webkit-appearance: none;
 	appearance: none;
 	color: #222;
 	border-radius: 1em;
@@ -166,11 +165,11 @@ button {
 	outline: 3px solid wheat;
 	cursor: pointer;
 	border-radius: 1em;
-	width: 7em;
+	width: 5em;
 	height: 2em;
 	background-color: #222;
 	color: wheat;
-	margin: 1em;
+	margin: 2.5em 0.3em;
 }
 
 .inner-footer a {
