@@ -159,7 +159,6 @@ input:hover {
 }
 
 button {
-	-webkit-appearance: none;
 	appearance: none;
 	border: none;
 	outline: 3px solid wheat;
@@ -170,6 +169,21 @@ button {
 	background-color: #222;
 	color: wheat;
 	margin: 2.5em 0.3em;
+}
+
+button:hover {
+	animation: 0.3s hover;
+	outline: 3px solid white;
+}
+
+@keyframes hover {
+	from {
+		outline: 3px solid wheat;
+	}
+
+	to {
+		outline: 3px solid white;
+	}
 }
 
 .inner-footer a {
