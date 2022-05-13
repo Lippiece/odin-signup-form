@@ -3,7 +3,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	background-color: #222;
-	font-family: "Rubik", "Franklin Gothic Medium", "Arial Narrow", "Arial", sans-serif;
+	font-family: Rubik, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body * {
@@ -21,17 +21,22 @@ main {
 	flex-shrink: 1;
 	gap: 1em;
 	width: 100%;
-	height: calc( 98vh - 2px );
+	height: calc(98vh - 2px);
 }
 
 main > * {
 	overflow: hidden;
 	height: 100%;
 	width: 50vw;
+
 	/* padding: 50px; */
 }
 
 .wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	overflow: hidden;
 	opacity: 1;
