@@ -75,13 +75,6 @@ p {
 	opacity: 0.75;
 }
 
-img {
-	position: absolute;
-	opacity: 0.25;
-	opacity: 0.25;
-	width: 100vh;
-}
-
 .right {
 	display: flex;
 	flex-direction: column;
@@ -94,12 +87,13 @@ form {
 	flex-direction: column;
 	gap: 0.5em;
 	text-align: justify;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	border-top: 1px groove #ccc;
+	border-bottom: 1px groove #ccc;
+	width: 60%;
 }
 
 form > * {
-	width: 60%;
+	width: 100%;
 }
 
 .svg {
