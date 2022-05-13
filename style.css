@@ -58,6 +58,10 @@ main > * {
 	color: wheat;
 	font-weight: 700;
 }
+
+.stripe > img {
+	height: 90%;
+	background-color: wheat;
 }
 
 h1 {
