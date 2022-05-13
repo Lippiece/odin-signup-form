@@ -42,8 +42,14 @@ main > * {
 	opacity: 1;
 }
 
-.left {
-	position: relative;
+.stripe {
+	height: 8em;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	gap: 1em;
+	opacity: 0.99;
+}
 }
 
 h1 {
