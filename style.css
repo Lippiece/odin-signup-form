@@ -50,6 +50,14 @@ main > * {
 	gap: 1em;
 	opacity: 0.99;
 }
+
+.stripe > * {
+	opacity: 1;
+	text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+	font-size: larger;
+	color: wheat;
+	font-weight: 700;
+}
 }
 
 h1 {
